@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A tool for validating research papers by flagging concerning claims. Upload your PDF for analysis!">
+    <title>Research Validator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Research Validator</h1>
+            <p>Upload your research paper and let us flag concerning claims for you!</p>
+        </header>
+        <main>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label for="fileInput">Upload your PDF:</label>
+                <input type="file" id="fileInput" name="file" accept=".pdf" required>
+                <button type="submit" class="upload-btn">Upload Paper</button>
+            </form>
+            <div id="result"></div>
+        </main>
+        <section class="trusted-section">
+            <h2>Trusted by Researchers Worldwide</h2>
+            <div class="reviews">
+                <div class="review">
+                    <p>"A lifesaver for peer reviews!"</p>
+                    <i>- Dr. Jane Doe, AI Researcher</i>
+                </div>
+                <div class="review">
+                    <p>"Quickly identifies problematic claims."</p>
+                    <i>- Prof. John Smith, Data Scientist</i>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>© 2024 Research Validator. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
