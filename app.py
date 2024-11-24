@@ -23,7 +23,7 @@ def upload_file():
 
     file = request.files['file']
     if file.filename == '':
-        return jsonify({"error": "No file selected"}), 400
+        return jsonify({"error": "No filei selected"}), 400
 
     # Save the uploaded file
     filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
