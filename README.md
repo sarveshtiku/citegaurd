@@ -1,84 +1,163 @@
-#!/bin/bash
+# CiteGuard
 
-# CiteGuard Installation and Usage Script
-# ---------------------------------------
+✨ **CiteGuard** is your companion for research integrity! Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references.
 
-# ✨ **CiteGuard**: Your companion for research integrity!
-# Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references.
+---
 
-echo "🚀 Quick Start Guide for CiteGuard"
+## 🚀 Quick Start
 
-# Step 1: Clone the repository
-echo "✨ Step 1: Cloning the repository..."
-git clone https://github.com/yourusername/citeguard.git
-cd citeguard || exit
-echo "Repository cloned successfully."
+Follow these steps to get started:
 
-# Step 2: Create a new branch for your feature
-echo "✨ Step 2: Creating a new branch for your feature..."
-git checkout -b feature-name
-echo "Branch created successfully."
+1. **Clone the repository**  
+   
+bash
+   git clone https://github.com/yourusername/citeguard.git
+   cd citeguard
+   git checkout -b feature-name
 
-# Step 3: Install dependencies
-echo "✨ Step 3: Installing dependencies..."
+2. **Install Dependencies**
+bash
 pip install -r requirements.txt
-echo "Dependencies installed successfully."
 
-# Step 4: Run the Flask app
-echo "✨ Step 4: Running the Flask app..."
-python app.py &
-FLASK_PID=$!
-echo "Flask app is running in the background."
+3. **Run the flask app**  
+bash
+python app.py
 
-# Step 5: Open the app in your browser
-echo "✨ Step 5: Access the app in your browser at http://127.0.0.1:5000"
+4.**Open the app in your browser**  
+Access the app at: http://127.0.0.1:5000
 
-# What is CiteGuard
-echo "✨ What is CiteGuard?"
-echo "Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references."
+---
 
-# Why CiteGuard
-echo "🤔 Why Choose CiteGuard?"
-echo " - 🕒 Saves Time: Automates tedious validation tasks for peer reviewers."
-echo " - 🔒 Enhances Credibility: Helps researchers ensure the integrity of their work."
-echo " - 🌍 Supports Collaboration: Trusted by researchers worldwide for its accuracy and simplicity."
+## ✨ What is CiteGuard?
 
-# Tech Stack
-echo "🛠️ Tech Stack:"
-echo " - Frontend: HTML, CSS, JavaScript"
-echo " - Backend: Flask (Python)"
-echo " - AI/NLP: Hugging Face Transformers"
-echo " - PDF Tools: PyPDF2, Tesseract OCR"
+Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references.
 
-# Repository Overview
-echo "📦 Repository Overview:"
-echo " - /static/: Contains CSS and JavaScript files for the web interface."
-echo " - /templates/: HTML templates for rendering web pages."
-echo " - /uploads/: Folder for temporary file storage during analysis."
-echo " - app.py: Main Flask application handling file uploads and AI processing."
-echo " - requirements.txt: List of dependencies for the project."
+---
 
-# How to Contribute
-echo "❤️ How to Contribute:"
-echo " 1. Fork the repository."
-echo " 2. Create a branch:"
-echo "    git checkout -b feature-name"
-echo " 3. Make your changes and commit them:"
-echo "    git commit -m 'Added a new feature'"
-echo " 4. Push your changes:"
-echo "    git push origin feature-name"
-echo " 5. Open a pull request on GitHub."
+## 🤔 Why CiteGuard?
 
-# Feedback & Support
-echo "📢 Feedback & Support:"
-echo " - Open an issue on the GitHub page for questions or suggestions."
-echo " - Contact us directly at contact@citeguard.com."
+- 🕒 **Saves Time**: Automates tedious validation tasks for peer reviewers.
+- 🔒 **Enhances Credibility**: Helps researchers ensure the integrity of their work.
+- 🌍 **Supports Collaboration**: Trusted by researchers worldwide for its accuracy and simplicity.
 
-# Wrap-up
-echo "💻 Start Your Journey Towards Research Integrity with CiteGuard!"
-echo "Clone the repo now and get started:"
-echo "git clone https://github.com/yourusername/citeguard.git"
+---
 
-# End message
-echo "🎉 All done! Visit http://127.0.0.1:5000 to start using CiteGuard."
-echo "To stop the Flask server, use the command: kill $FLASK_PID"
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Flask (Python)
+- **AI/NLP**: Hugging Face Transformers
+- **PDF Tools**: PyPDF2, Tesseract OCR
+
+---
+
+## 📦 Repository Overview
+
+Here’s what’s inside the repository:
+
+- `/static/`: Contains CSS and JavaScript files for the web interface.
+- `/templates/`: HTML templates for rendering web pages.
+- `/uploads/`: Folder for temporary file storage during analysis.
+- `app.py`: Main Flask application handling file uploads and AI processing.
+- `requirements.txt`: List of dependencies for the project.
+
+---
+
+## ❤️ How to Contribute
+
+We welcome contributions! To get started:
+
+1. **Fork the repository** on GitHub.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature-name
+## ✨ What is CiteGuard?
+
+Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references.
+
+---
+
+## 🤔 Why CiteGuard?
+
+- 🕒 **Saves Time**: Automates tedious validation tasks for peer reviewers.
+- 🔒 **Enhances Credibility**: Helps researchers ensure the integrity of their work.
+- 🌍 **Supports Collaboration**: Trusted by researchers worldwide for its accuracy and simplicity.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Flask (Python)
+- **AI/NLP**: Hugging Face Transformers
+- **PDF Tools**: PyPDF2, Tesseract OCR
+
+---
+
+## 📦 Repository Overview
+
+Here’s what’s inside the repository:
+
+- /static/: Contains CSS and JavaScript files for the web interface.
+- /templates/: HTML templates for rendering web pages.
+- /uploads/: Folder for temporary file storage during analysis.
+- app.py: Main Flask application handling file uploads and AI processing.
+- requirements.txt: List of dependencies for the project.
+
+---
+
+## ❤️ How to Contribute
+
+We welcome contributions! To get started:
+
+1. **Fork the repository** on GitHub.
+2. **Create a new branch**:
+bash
+   git checkout -b feature-name
+   
+3. **Make your changes and commit:**:
+bash
+   git commit -m "Added a new feature"
+   
+4. **Push your changes**: 
+bash
+  git push origin feature-name
+  
+5. **Open a pull request**:
+Go to your forked repository on GitHub.
+Click on "Compare & pull request."
+Add a descriptive title and description for your changes.
+Submit the pull request for review.
+
+---
+
+## 📢 Feedback & Support
+
+Have questions, feedback, or need assistance? Here’s how you can reach us:
+
+- **Open an Issue**: If you encounter bugs, have feature requests, or need clarification, feel free to open an issue on our [GitHub Issues page](https://github.com/yourusername/citeguard/issues).
+- **Contact Us**: Reach out directly via email at **[contact@citeguard.com](mailto:contact@citeguard.com)** for any inquiries or support.
+
+We value your input and are here to help!
+
+---
+
+## 💻 Start Your Journey Towards Research Integrity with CiteGuard!
+
+Get started now by cloning the repository:
+
+```bash
+git clone https://github.com/yourusername/citeguard.git
+
+Let us know how CiteGuard is improving your research workflow. Your feedback helps us grow and improve the tool for everyone.
+
+---
+
+## 📂 License
+
+CiteGuard is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+Thank you for using CiteGuard! Together, let’s enhance research integrity. 🚀
+
