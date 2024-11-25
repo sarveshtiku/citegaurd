@@ -100,30 +100,6 @@ Here’s what’s inside the repository:
 - app.py: Main Flask application handling file uploads and AI processing.
 - requirements.txt: List of dependencies for the project.
 
----
-
-## ❤️ How to Contribute
-
-We welcome contributions! To get started:
-
-1. **Fork the repository** on GitHub.
-2. **Create a new branch**:
-bash
-   git checkout -b feature-name
-   
-3. **Make your changes and commit:**:
-bash
-   git commit -m "Added a new feature"
-   
-4. **Push your changes**: 
-bash
-  git push origin feature-name
-  
-5. **Open a pull request**:
-Go to your forked repository on GitHub.
-Click on "Compare & pull request."
-Add a descriptive title and description for your changes.
-Submit the pull request for review.
 
 ---
 
