@@ -143,11 +143,3 @@ Get started now by cloning the repository:
 ```bash
 git clone https://github.com/yourusername/citeguard.git```
 
----
-## 📂 License
-
-CiteGuard is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
-
----
-
-Thank you for using CiteGuard! Together, let’s enhance research integrity. 🚀
