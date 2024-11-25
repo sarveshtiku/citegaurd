@@ -9,22 +9,18 @@
 Follow these steps to get started:
 
 1. **Clone the repository**  
-   
-bash
+   ```bash
    git clone https://github.com/yourusername/citeguard.git
    cd citeguard
    git checkout -b feature-name
-
-2. **Install Dependencies**
-bash
-pip install -r requirements.txt
-
-3. **Run the flask app**  
-bash
-python app.py
-
-4.**Open the app in your browser**  
-Access the app at: http://127.0.0.1:5000
+2. **Install Dependencies**  
+   ```bash
+   pip install -r requirements.txt
+3. **Run the Flask app**  
+   ```bash
+   python app.py
+4. **Open the app in your browser**  
+   Access the app at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
@@ -141,7 +137,6 @@ Have questions, feedback, or need assistance? Here’s how you can reach us:
 We value your input and are here to help!
 
 ---
-
 ## 💻 Start Your Journey Towards Research Integrity with CiteGuard!
 
 Get started now by cloning the repository:
@@ -149,10 +144,7 @@ Get started now by cloning the repository:
 ```bash
 git clone https://github.com/yourusername/citeguard.git
 
-Let us know how CiteGuard is improving your research workflow. Your feedback helps us grow and improve the tool for everyone.
-
 ---
-
 ## 📂 License
 
 CiteGuard is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
@@ -160,4 +152,3 @@ CiteGuard is licensed under the **MIT License**. See the [LICENSE](LICENSE) file
 ---
 
 Thank you for using CiteGuard! Together, let’s enhance research integrity. 🚀
-
