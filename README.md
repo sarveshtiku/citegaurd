@@ -1,38 +1,49 @@
 #!/bin/bash
 
-# Welcome to CiteGuard Installation Script!
+# CiteGuard Installation and Usage Script
+# ---------------------------------------
+
+# ✨ **CiteGuard**: Your companion for research integrity!
+# Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references.
+
+echo "🚀 Quick Start Guide for CiteGuard"
 
 # Step 1: Clone the repository
-echo "Cloning the CiteGuard repository..."
+echo "✨ Step 1: Cloning the repository..."
 git clone https://github.com/yourusername/citeguard.git
 cd citeguard || exit
+echo "Repository cloned successfully."
 
 # Step 2: Create a new branch for your feature
-echo "Creating a new branch for your feature..."
+echo "✨ Step 2: Creating a new branch for your feature..."
 git checkout -b feature-name
+echo "Branch created successfully."
 
 # Step 3: Install dependencies
-echo "Installing dependencies..."
+echo "✨ Step 3: Installing dependencies..."
 pip install -r requirements.txt
+echo "Dependencies installed successfully."
 
 # Step 4: Run the Flask app
-echo "Starting the Flask app..."
-python app.py
+echo "✨ Step 4: Running the Flask app..."
+python app.py &
+FLASK_PID=$!
+echo "Flask app is running in the background."
 
 # Step 5: Open the app in your browser
-echo "Access the app at: http://127.0.0.1:5000"
+echo "✨ Step 5: Access the app in your browser at http://127.0.0.1:5000"
 
-# Info: About CiteGuard
+# What is CiteGuard
 echo "✨ What is CiteGuard?"
 echo "Upload a PDF research paper, and CiteGuard will process it to flag problematic claims or references."
 
-# Info: Why Choose CiteGuard
-echo "🤔 Why CiteGuard?"
+# Why CiteGuard
+echo "🤔 Why Choose CiteGuard?"
 echo " - 🕒 Saves Time: Automates tedious validation tasks for peer reviewers."
 echo " - 🔒 Enhances Credibility: Helps researchers ensure the integrity of their work."
 echo " - 🌍 Supports Collaboration: Trusted by researchers worldwide for its accuracy and simplicity."
 
-# Info: Tech Stack
+# Tech Stack
 echo "🛠️ Tech Stack:"
 echo " - Frontend: HTML, CSS, JavaScript"
 echo " - Backend: Flask (Python)"
@@ -50,19 +61,24 @@ echo " - requirements.txt: List of dependencies for the project."
 # How to Contribute
 echo "❤️ How to Contribute:"
 echo " 1. Fork the repository."
-echo " 2. Create your branch:"
+echo " 2. Create a branch:"
 echo "    git checkout -b feature-name"
 echo " 3. Make your changes and commit them:"
 echo "    git commit -m 'Added a new feature'"
-echo " 4. Push your branch to your forked repository:"
+echo " 4. Push your changes:"
 echo "    git push origin feature-name"
-echo " 5. Submit a pull request on the original repository."
+echo " 5. Open a pull request on GitHub."
 
 # Feedback & Support
 echo "📢 Feedback & Support:"
-echo "Got questions? Open an issue on the GitHub page."
-echo "For direct inquiries, reach out to the team at: contact@citeguard.com"
+echo " - Open an issue on the GitHub page for questions or suggestions."
+echo " - Contact us directly at contact@citeguard.com."
 
 # Wrap-up
 echo "💻 Start Your Journey Towards Research Integrity with CiteGuard!"
-echo "📂 Clone the repo now and get started!"
+echo "Clone the repo now and get started:"
+echo "git clone https://github.com/yourusername/citeguard.git"
+
+# End message
+echo "🎉 All done! Visit http://127.0.0.1:5000 to start using CiteGuard."
+echo "To stop the Flask server, use the command: kill $FLASK_PID"
