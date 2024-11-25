@@ -132,7 +132,6 @@ Submit the pull request for review.
 Have questions, feedback, or need assistance? Here’s how you can reach us:
 
 - **Open an Issue**: If you encounter bugs, have feature requests, or need clarification, feel free to open an issue on our [GitHub Issues page](https://github.com/yourusername/citeguard/issues).
-- **Contact Us**: Reach out directly via email at **[contact@citeguard.com](mailto:contact@citeguard.com)** for any inquiries or support.
 
 We value your input and are here to help!
 
@@ -142,7 +141,7 @@ We value your input and are here to help!
 Get started now by cloning the repository:
 
 ```bash
-git clone https://github.com/yourusername/citeguard.git
+git clone https://github.com/yourusername/citeguard.git```
 
 ---
 ## 📂 License
