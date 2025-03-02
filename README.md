@@ -81,15 +81,6 @@ Upload a PDF research paper, and CiteGuard will process it to flag problematic c
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Flask (Python)
-- **AI/NLP**: Hugging Face Transformers
-- **PDF Tools**: PyPDF2, Tesseract OCR
-
----
-
 ## 📦 Repository Overview
 
 Here’s what’s inside the repository:
